@@ -1,0 +1,123 @@
+/* style.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #252525; 
+    color: #eeeeee; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#introduction {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    background-color: #5e81ac; 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#services {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    color: #eeeeee; 
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #5e81ac; 
+}
+
+#benefits {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #404040; 
+    color: #eeeeee; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5e81ac; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #4c6a8d; 
+}
+
+#location {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #eeeeee; 
+    border-bottom: 2px solid #5e81ac;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #cccccc;
+}
+
+@media (min-width: 768px) {
+    .container {
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 4em;
+      padding: 20px;
+      margin: 20px 0;
+    }
+}
